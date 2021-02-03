@@ -14,7 +14,7 @@ def address_collector():
     except:
       return 'Error! data registration is crashed!' 
   if( request.args.get('address')[1] == 'x'):
-    return '<html><head><title>YukiMatsuri</title></head><body bgColor="#83D1E5"><h2>あなたのアドレスがブロックチェーンに登録されました！</h2><img src="https://raw.githubusercontent.com/nandemotoken/YukiMatsuriAddressCollector/gh-pages/snowman.png" width="200"></body></html>'
+    return '<html><head><title>YukiMatsuri</title></head><body bgColor="#83D1E5"><h2>あなたのアドレスがブロックチェーンに登録されました！</h2><img src="https://raw.githubusercontent.com/nandemotoken/YukiMatsuriAddressCollector/gh-pages/snowman.png" width="200"><br><a href="https://nandemotoken.github.io/VRYukiMatsuriNFT/CheckTokens2.html"><h1>スタンプラリーのページに進む</h1></a></body></html>'
   else:
     return 'エラー！再度お試しください…'
 
